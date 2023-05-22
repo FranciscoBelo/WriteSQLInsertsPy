@@ -1,6 +1,6 @@
 # WriteSQLInsertsPy
 
-Add in txt head -
+Head txt
 
 DECLARE @rowCount int = (select count(*) from powerapps.SLAEscalationMatrix)
 select @rowCount;
