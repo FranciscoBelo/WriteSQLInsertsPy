@@ -2,7 +2,7 @@
 
 Head txt
 
-DECLARE @rowCount int = (select count(*) from powerapps.SLAEscalationMatrix)
+DECLARE @rowCount int = (select count(*) from XX.XX)
 select @rowCount;
 IF (@rowCount = 0)
 BEGIN
